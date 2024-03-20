@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript">
+        document.querySelector("#URL").innerHTML = window.location.host;
+        function copyFunction() {
+            document.querySelector("body > div:last-of-type").innerHTML = "Go Blue";
+        }
+
+    </script>
+</head>
+<body>
+    <header>
+        <a class="skip" href = "#main">Skip to Main Content</a>
+		<nav>
+			<ul>
+				<li class="item1"><a href = "index.html" >Home</a></li>
+				<li class="item1"><a href = "pets.html">Pets</a></li>
+				<li class="item1 active-page"><a href = "travel.html">Travel</a></li>
+				<li class="item1"><a href = "recipes.html">Recipes</a></li>
+			</ul>
+		</nav>
+	</header>
+    <main id="main">
+        <h1 class = "top">Travel</h1>
+        <div>
+            <h2>Use JavaScript to display the following information here:</h2>
+	        <p>
+                The URL of this page is: <span id = "URL"></span><br/>
+                The number of H2 items for this page: <span id = "items"></span><br/>
+                The current date/time is: <span id = "time"></span><br/>
+            </p>
+
+		    <p oncopy="copyFunction()">Thank you for visiting!</p>
+
+	        
+            <div id="cheer"></div>
+        </div>
+
+        <div>
+            <h2>Paris</h2>
+            <img class="poster" src="images/paris_main.jpg" alt="The tops of buildings with the Eiffel Tower in the background">
+            <div class="intro">
+                <p>Paris, the capital of France is one of the most visited locations in the world. It is home to the iconic Eiffel Tower and has a population of over 2 million people.</p> 
+                <p>Paris is known not just for its views, but also for its food. There is a plethora of unique restaurants that serve unforgettable food.</p>
+            </div>
+            <h3>Photo Gallery</h3>
+            <div class="three-grid-gallery">
+                <img class = "grid-img" src="images/eiffel.jpg" alt = "Eiffel Tower, which is a tall triangular structure">
+                <img class = "grid-img" src="images/macaron.jpg"  alt="Rows of red, yellow, white, and green macarons">
+                <img class = "grid-img" src="images/louvre.jpg"  alt="The Louvre Museum with many people and a glass triangular structure in front">
+            </div>
+            <div class="more-details">
+                <h3>Top Activites</h3>
+                <ul>
+                    <li>Visiting the Eiffel Tower</li>
+                    <li>Visiting the Louvre Museum</li>
+                    <li>Dining in</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h2>Boston</h2>
+            <img class="poster" src="images/boston_main.jpg" alt="The city Boston with buildings in the back and a river in front">
+            <div class="intro">
+                <p>Boston, Massachusetts, is a city where American history comes to life. With its storied past, including the Boston Tea Party and the Battle of Bunker Hill, the city preserves its heritage through historic landmarks and the Freedom Trail.</p> 
+                <p>Beyond history, Boston is a vibrant cultural and academic center, home to renowned universities like Harvard and MIT, as well as world-class museums, theaters, and a thriving sports scene.</p>
+            </div>
+            <h3>Photo Gallery</h3>
+            <div class="two-grid-gallery">
+                <img class = "grid-img" src="images/boston_common.jpg" alt = "A park in daylight with buildings in the background">
+                <img class = "grid-img" src="images/charles_river.jpg"  alt="A dark river at nighttime with bright buildings in the background">
+            </div>
+            <div class="more-details">
+                <h3>Top Activities</h3>
+                <ul>
+                    <li>Visiting Charles River</li>
+                    <li>Visiting Emerald Necklace Park</li>
+                    <li>Trying the local cuisine</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h2>Seattle</h2>
+            <img class="poster" src="images/seattle_main.jpg" alt="The city Seattle with the Space Needle in the background">
+            <div class="intro">
+                <p>Seattle, nestled in the Pacific Northwest, harmoniously blends city living with nature's beauty. The iconic Space Needle stands tall, offering sweeping views of mountains and water.</p> 
+                <p>Seattle's cultural scene thrives with museums, theaters, and a rich music history, while its commitment to sustainability and outdoor activities makes it a haven for nature lovers.</p>
+            </div>
+            <h3>Photo Gallery</h3>
+            <div class="three-grid-gallery">
+                <img class = "grid-img" src="images/space_needle.jpg" alt = "A tall tower in Seattle called the Space Needle">
+                <img class = "grid-img" src="images/mount_rainer.jpg" alt="A stratovolano with snow on top called Mount Rainer">
+                <img class = "grid-img" src="images/pike_place.jpg" alt="A marketplace called Pike Place. A nighttime street with a sign that says Public Market Center">
+            </div>
+            <div class="more-details">
+                <h3>Top Activities</h3>
+                <ul>
+                    <li>Visiting the Space Needle</li>
+                    <li>Visiting Pike Place</li>
+                    <li>Viewing Mount Rainer</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h2>New York City</h2>
+            <img class="poster" src="images/nyc_buildings.jpg" alt="The tops of buildings in New York City">
+            <div class="intro">
+                <p>New York City, often dubbed the "City that Never Sleeps," is a bustling metropolis like no other. Its iconic skyline, dominated by towering skyscrapers like the Empire State Building and One World Trade Center, symbolizes its ceaseless ambition and innovation.</p> 
+                <p>Beyond the surface, New York City's subway system and iconic yellow taxis make it remarkably accessible, allowing residents and visitors alike to explore its diverse offerings. This city is a stage for dreams to be pursued, a canvas for artistry to flourish, and a relentless engine of progress.</p>
+            </div>
+            <h3>Photo Gallery</h3>
+            <div class="two-grid-gallery">
+                <img class = "grid-img" src="images/brooklyn_bridge.jpg" alt = "A street between two buildings with Brooklyn Bridge visible in the background">
+                <img class = "grid-img" src="images/central_park.jpg" alt="A park with people in the field and buildings in the background">
+            </div>
+            <div class="more-details">
+            <h3>Top Activities</h3>
+                <ul>
+                    <li>Trying New York style pizza</li>
+                    <li>Visiting Central Park</li>
+                    <li>Visiting the Empire State Building</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h2>Guanajuato, Mexico</h2>
+            <img class="poster" src="images/Mexico_Guanajuato_Colourful_town.jpg" alt="An aerial view of many colorful buildings">
+            <div class="intro">
+                <p>As the sun dips low in the sky, Guanajuato, the vibrant small town in Mexico, unfolds a spectacular tableau of hues and shadows that bewitch every onlooker. The historic town, celebrated as the backdrop for the acclaimed animation "Coco," transforms into a realm of dreams.</p> 
+                <p>The array of colors presented by the quaint houses form a harmonious canvas that radiates a tranquil yet vibrant energy as the day transitions to night. This little town, full of life and color, offers a surreal experience, inviting dreamers and artists alike to immerse themselves in its poetic scenery, alive with stories and rich cultural tapestry.</p>
+            </div>
+            <h3>Photo Gallery</h3>
+            <div class="two-grid-gallery">
+                <img class = "grid-img" src="images/Mexico_Guanajuato_Night(1).jpg" alt = "An aerial view of many colorful buildings in the evening">
+                <img class = "grid-img" src="images/Mexcio_Teotihuacan.jpg" alt="An archaeological site in the middle of the day with a man taking a picture of the scene">
+            </div>
+            <div class="more-details">
+                <h3>Top Activities</h3>
+                <ul>
+                    <li>Trying the local cuisine</li>
+                    <li>Visiting Teotihuacan</li>
+                    <li>Experience the night life</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
